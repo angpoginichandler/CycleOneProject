@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+<link href='https://fonts.googleapis.com/css?family=Lato:400,300,700'>
+<style>
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100%;  
+}
+
+body {
+  min-height: 100%;  
+  background: #eee;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: #222;
+  font-size: 14px;
+  line-height: 26px;
+  padding-bottom: 50px;
+}
+
+img {
+      width: 150px;
+      height: 150px;
+      border-radius: 70%;
+      object-fit: cover;
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 20px;
+    }
+
+.container {
+  max-width: 700px;   
+  background: #fff;
+  margin: 0px auto 0px; 
+  box-shadow: 1px 1px 2px #DAD7D7;
+  border-radius: 3px;  
+  padding: 40px;
+  margin-top: 50px;
+}
+
+.header {
+  margin-bottom: 50px;
+  
+.full-name {
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+  }
+  
+  .first-name {
+    font-weight: 700;
+  }
+  
+  .last-name {
+    font-weight: 300;
+  }
+  
+  .contact-info {
+    margin-bottom: 20px;
+  }
+  
+  .email ,
+  .phone {
+    color: #999;
+    font-weight: 300;
+  } 
+  
+  .separator {
+    height: 10px;
+    display: inline-block;
+    border-left: 2px solid #999;
+    margin: 0px 10px;
+  }
+  
+  .position {
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: underline;
+  }
+}
+
+
+.details {
+  line-height: 20px;
+  
+.section {
+    margin-bottom: 40px;  
+  }
+  
+  .section:last-of-type {
+    margin-bottom: 0px;  
+  }
+  
+  .section__title {
+    letter-spacing: 2px;
+    color: #b654e4;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+  
+  .section__list-item {
+    margin-bottom: 40px;
+  }
+  
+  .section__list-item:last-of-type {
+    margin-bottom: 0;
+  }
+  
+  .left ,
+  .right {
+    vertical-align: top;
+    display: inline-block;
+  }
+  
+  .left {
+    width: 60%;    
+  }
+  
+  .right {
+    text-align: right;
+    width: 39%;    
+  }
+  
+  .name {
+    font-weight: bold;
+    bottom: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #000;
+    font-style: italic;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: #000;
+  }
+  
+  .skills {
+    
+  }
+    
+  .skills__item {
+    margin-bottom: 10px;  
+  }
+  
+  .skills__item .right {
+    input {
+      display: none;
+    }
+    
+    label {
+      display: inline-block;  
+      width: 20px;
+      height: 20px;
+      background: #f3c3f1;
+      border-radius: 20px;
+      margin-right: 3px;
+    }
+    
+    input:checked + label {
+      background: #b654e4;
+    }
+  }
+}
+
+</style>
+
+<div class="container">
+  <div class="header">
+    <div class="full-name">
+      <span class="first-name">Chandler</span> 
+      <span class="last-name">Victorino</span>
+    </div>
+
+    <div id="picture">
+        <img src="PICTURES/Picture Resume/Chandler.jpg" alt="Chandler Victorino">
+      </div>
+
+    <div class="contact-info">
+      <span class="email">Email: </span>
+      <span class="email-val">chandlervictorino3@gmail.com</span>
+      <span class="separator"></span>
+      <span class="phone">Phone: </span>
+      <span class="phone-val">0919786789 Globe</span>
+    </div>
+    
+  </div>
+   <div class="details">
+    <div class="section">
+      <div class="section__title">CAREER OBJECTIVES</div>
+      <div class="section__list">
+        <div class="section__list-item">
+          <div class="left">
+            <div class="name">IT specialist </div>
+            <div class="addr">I want to offer my skills and knowledge to I.T. industry and mastering complex systems, solving intricate problems, and adapting to ever-changing technologies is what drives progress in our interconnected world. </div>
+          </div>
+          <div class="section__list-item"></div>
+          <div class="left">
+            <div class="name">Web Developer</div>
+            <div class="desc">I want to help businesses to reach their target market and mastering in languages, frameworks, and technologies changes the online environment and makes it more engaging, accessable, and interesting.</div>
+          </div>
+        </div>
+                <div class="section__list-item">
+          <div class="left">
+            <div class="name">Game Developer</div>
+            <div class="addr">I want to create games that will give impact to the audience and give entertainment. </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="section">
+      <div class="section__title">EDUCATION</div>
+      <div class="section__list">
+        <div class="section__list-item">
+          <div class="left">
+            <div class="name">Malaya Elementary School</div>
+            <div class="addr"> Diliman, Lungsod Quezon, PH </div>
+            <div class="duration" >2009 - 2011</div>
+          </div>
+          <div class="right">
+            <div class="name">Grade School</div>
+            <div class="desc">Grade 1 - Grade 3</div>
+          </div>
+        </div>
+        <div class="section__list-item">
+          <div class="left">
+            <div class="name">General Roxas Elementary School</div>
+            <div class="addr">Roxas, Lungsod Quezon, CA</div>
+            <div class="duration"> 2012 - 2015</div>
+          </div>
+          <div class="right">
+            <div class="name">Grade School</div>
+            <div class="desc">Grade 4 - Grade 6</div>
+          </div>
+        </div>
+
+        <div class="section__list-item">
+            <div class="left">
+              <div class="name">Don Alejandro Roces Sr. Science - Technology High School</div>
+              <div class="addr">Roces, Lungsod Quezon, PH</div>
+              <div class="duration">2016 - 2019</div>
+            </div>
+            <div class="right">
+              <div class="name">Food Technology</div>
+              <div class="desc">Grade 7 - Grade 10</div>
+            </div>
+          </div>
+
+          <div class="section__list-item">
+            <div class="left">
+              <div class="name">Don Alejandro Roces Sr. Science - Technology Sr. High School</div>
+              <div class="addr">Roces Ave, Lungsod Quezon, PH</div>
+              <div class="duration"> 2020 - 2021 </div>
+            </div>
+            <div class="right">
+              <div class="name">Tech-Voc Electronics</div>
+              <div class="desc">Grade 11 - Grade 12</div>
+            </div>
+          </div>
+
+          <div class="section__list-item">
+            <div class="left">
+              <div class="name">National Teachers College</div>
+              <div class="addr">Quiapo, Manila, PH</div>
+              <div class="duration"> 2022 - present </div>
+            </div>
+            <div class="right">
+              <div class="name">Bachelor of Science in Information Technology</div>
+              <div class="desc">1st year - present</div>
+            </div>
+          </div>
+
+      </div>
+      
+  </div>
+     <div class="section">
+      <div class="section__title">ELIGIBILITY</div> 
+       <div class="section__list">
+         <div class="section__list-item">
+           <div class="name">Computer Programming 2 CC103</div>
+           <div class="text">We Developed game for food SDG targeting "Zero Hunger"  and "Good Health and Well-being" .</div>
+           <div class="section__list-item">
+            <div class="name">Information Management System</div>
+            <div class="text">We Proposes and Developed a grading system.</div>
+
+         </div>
+         <div class="section">
+            <div class="section__title">CERTIFICATE</div> 
+             <div class="section__list">     
+         <div class="section__list-item">
+                    <div class="name">* Active Listening: The Secret of Effective Communication LKND</div>
+                    <div class="name">* Information Literacy LKND</div>
+                    <div class="name">* Spotting Misinformation Online LKND</div>
+                    <div class="name">* CS50 Introduction to Computer Science HRVD</div>
+                    <div class="name">* CS50 Understanding Technology HRVD</div>
+         </div>
+       </div>
+    </div>
+
+
+     <div class="section">
+       <div class="section__title">Skills</div>
+       <div class="skills">
+         <div class="skills__item">
+           <div class="left"><div class="name">
+             Java
+             </div></div>
+           <div class="right">
+                          <input  id="ck1" type="checkbox" checked/>
+
+             <label for="ck1"></label>
+                          <input id="ck2" type="checkbox" checked/>
+
+              <label for="ck2"></label>
+                         <input id="ck3" type="checkbox" />
+
+              <label for="ck3"></label>
+                           <input id="ck4" type="checkbox" />
+            <label for="ck4"></label>
+                          <input id="ck5" type="checkbox" />
+              <label for="ck5"></label>
+
+           </div>
+         </div>
+         
+       </div>
+       <div class="skills__item">
+           <div class="left"><div class="name">
+             C++</div></div>
+           <div class="right">
+                          <input  id="ck1" type="checkbox" checked/>
+
+             <label for="ck1"></label>
+                          <input id="ck2" type="checkbox" checked/>
+
+              <label for="ck2"></label>
+                         <input id="ck3" type="checkbox" />
+
+              <label for="ck3"></label>
+                           <input id="ck4" type="checkbox" />
+            <label for="ck4"></label>
+                          <input id="ck5" type="checkbox" />
+              <label for="ck5"></label>
+
+           </div>
+         </div>
+         
+       </div>
+     <div class="section">
+     <div class="section__title">
+       Interests
+       </div>
+       <div class="section__list">
+         <div class="section__list-item">
+                  Web Design, Multi-Media.
+          </div>
+       </div>
+     </div>
+     </div>
+  </div>
+</div>
+</html>
